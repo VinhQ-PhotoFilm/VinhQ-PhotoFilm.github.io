@@ -294,7 +294,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 40px;
+  /* max-height: 40px; */
   margin-right: 8px;
 }
 
@@ -1211,7 +1211,7 @@ h6 {
 .hero p {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 11pt;
 }
 
 .hero .btn-get-started {
