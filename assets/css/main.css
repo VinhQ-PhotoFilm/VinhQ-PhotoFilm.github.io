@@ -750,7 +750,7 @@ h6 {
 }
 
 .gallery .gallery-item:hover .gallery-links {
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .gallery .gallery-item:hover .preview-link,
@@ -769,6 +769,7 @@ h6 {
 .glightbox-clean .gslide-title {
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
