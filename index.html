@@ -119,7 +119,7 @@
                 </a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -129,7 +129,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-2.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -139,7 +139,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-3.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -149,7 +149,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-4.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -159,7 +159,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-5.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -169,7 +169,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-6.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -179,7 +179,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-7.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
@@ -189,7 +189,7 @@
                 <a href="https://vinhq-photofilm.github.io/assets/img/gallery/NangTho/gallery-8.jpg" title="Vuốt sang để xem thêm" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 
               </div>
-              <img class="loading" src="assets/vendor/aos/loading.svg" width="50">
+              
             </div>
           </div><!-- End Gallery Item -->
           
@@ -233,36 +233,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var galleryItems = document.getElementsByClassName('gallery-item');
-        Array.from(galleryItems).forEach(galleryItem => {
-          let lazyImage = galleryItem.getElementsByClassName('img-fluid')[0];
-          var lazyLoadIcon = galleryItem.getElementsByClassName('loading')[0];
-          if(lazyLoadIcon)
-          {
-            lazyImage.addEventListener('load', function() {
-                // Khi hình ảnh đã load xong, ẩn biểu tượng loading
-                lazyLoadIcon.style.display = 'none';
-            });
-    
-            lazyImage.addEventListener('error', function() {
-                // Xử lý khi có lỗi load hình ảnh (nếu cần)
-                console.error('Error loading image');
-                // Hiển thị thông báo hoặc xử lý lỗi tại đây
-            });
-    
-            // Kiểm tra nếu hình ảnh đã được load ngay từ đầu
-            if (lazyImage.complete) {
-                lazyLoadIcon.style.display = 'none';
-            } else {
-                // Nếu hình ảnh chưa load xong, hiển thị biểu tượng loading
-                lazyLoadIcon.style.display = 'block';
-            }
-          }
-        });
-    });
-</script>
+
 
 </body>
 
