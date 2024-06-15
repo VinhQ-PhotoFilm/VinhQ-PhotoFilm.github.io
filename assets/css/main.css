@@ -717,6 +717,12 @@ h6 {
   border-radius: 10px;
 }
 
+.gallery .gallery-item .loading {
+  position: absolute;
+  top: 46%;
+  left: 43%;
+}
+
 .gallery .gallery-item img {
   transition: 0.3s;
 }
